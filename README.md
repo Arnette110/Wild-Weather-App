@@ -20,6 +20,8 @@ This is a weather dashboard application that includes search functionality for f
 
 
 ## Screenshots of project
+![2020-01-04 20_45_12-Wild Weather App-landing](https://user-images.githubusercontent.com/54122844/71774891-e466c780-2f33-11ea-8a69-3b188db15332.png)
+![2020-01-04 20_46_40-Wild Weather App-with-inputs](https://user-images.githubusercontent.com/54122844/71774892-e6c92180-2f33-11ea-9117-4cef768f1f22.png)
 
 
 
