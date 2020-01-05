@@ -39,7 +39,7 @@ function today() {
         
         // -- ajax call for UV Index start --
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/uvi?appid=" + APIKey + "&lat=" + response.coord.lat + "&lon=" + response.coord.lon,
+            url: "https://api.openweathermap.org/data/2.5/uvi?appid=" + APIKey + "&lat=" + response.coord.lat + "&lon=" + response.coord.lon,
             method: "GET"
         }).then(function (uvi) {
 
