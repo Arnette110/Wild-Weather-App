@@ -11,10 +11,10 @@ https://arnette110.github.io/Wild-Weather-App/
 - Click inside the input box and type the name of a city that you wish to view a weather report for then either click the search button or hit the "Enter" key on your keyboard.
 - The current weather will display along with a five-day forecast.
 - The city you have searched will be displayed below the input box as a button.
-  - * Search history buttons will display the cities recent searches, but only up to the last 8 cities searched.
+   * Search history buttons will display the cities recent searches, but only up to the last 8 cities searched.
 - If you have searched multiple cities you can click one of the search history buttons and the weather information for the corresponding city will be displayed.
 - If you re-load the page the search history buttons will remain available and the weather information of the last "manually" searched city will be displayed.
-  - * "manually" searched is to mean a city searched for by use of the input box only and not a city searched by use of a search history button.
+   * "manually" searched is to mean a city searched for by use of the input box only and not a city searched by use of a search history button.
 
 
 
