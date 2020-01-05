@@ -101,7 +101,7 @@ function loadLastWeather() {
         // -- computes average temp and humidity for the day --
         var avgTemp = Math.floor(sumTemp/8);
         var avgHumid = Math.floor(sumHumid/8);
-        console.log(avgTemp);
+        
 
          // -- building dayOne weather card start --
          var weatherList = $("<ul class='tile is-child box'>").css({
@@ -142,7 +142,7 @@ function loadLastWeather() {
         // -- computes average temp and humidity for the day --
         var avgTemp = Math.floor(sumTemp/8);
         var avgHumid = Math.floor(sumHumid/8);
-        console.log(avgTemp);
+        
 
          // -- building dayTwo weather card start --
          var weatherList = $("<ul class='tile is-child box'>").css({
@@ -183,7 +183,7 @@ function loadLastWeather() {
         // -- computes average temp and humidity for the day --
         var avgTemp = Math.floor(sumTemp/8);
         var avgHumid = Math.floor(sumHumid/8);
-        console.log(avgTemp);
+        
 
          // -- building dayThree weather card start --
          var weatherList = $("<ul class='tile is-child box'>").css({
@@ -224,7 +224,7 @@ function loadLastWeather() {
         // -- computes average temp and humidity for the day --
         var avgTemp = Math.floor(sumTemp/8);
         var avgHumid = Math.floor(sumHumid/8);
-        console.log(avgTemp);
+        
 
          // -- building dayFour weather card start --
          var weatherList = $("<ul class='tile is-child box'>").css({
@@ -265,8 +265,7 @@ function loadLastWeather() {
         // -- computes average temp and humidity for the day --
         var avgTemp = Math.floor(sumTemp/8);
         var avgHumid = Math.floor(sumHumid/8);
-        console.log(avgTemp);
-        console.log(response);
+        
 
          // -- building dayOne weather card start --
          var weatherList = $("<ul class='tile is-child box'>").css({
