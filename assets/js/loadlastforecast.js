@@ -1,20 +1,22 @@
 function loadLastWeather() {
+    
+    var APIKey = "5425a2aac49cece9bf036bfd0e2a21b1";
+        
     for (i = 0; i < cities.length; i++) {
         var city = cities[i];
+        
     };
-    var APIKey = "5425a2aac49cece9bf036bfd0e2a21b1";
-
-    if (city === "") {
-        return;
+    if (city === undefined) {
+        return false;
     };
-
+    
     // -- URL to query database -- 
     var queryURL =
         "https://api.openweathermap.org/data/2.5/weather?q=" +
         city +
         "&units=imperial&appid=" +
         APIKey;
-
+                
     // -- ajax call for current weather start -- 
     $.ajax({
         url: queryURL,
